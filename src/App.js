@@ -9,6 +9,7 @@ import Login from './Components/Login/Login';
 import AuthProvider from './Context/AuthContext';
 import About from './Components/About Us/About';
 import Contact from './Components/Contact Us/Contact';
+import PrivateRoute from './Components/Login/PrivateRoute/PrivateRoute';
 function App() {
   return (
     <div className="App">
@@ -25,15 +26,15 @@ function App() {
           <Route path="/login">
               <Login></Login>
           </Route>
-          <Route path="/aboutus">
+          <PrivateRoute path="/aboutus">
               <About></About>
-          </Route>
-          <Route path="/contactus">
+          </PrivateRoute>
+          <PrivateRoute path="/contactus">
               <Contact></Contact>
-          </Route>
-          <Route path="/servicedetails/:serviceId">
+          </PrivateRoute>
+          <PrivateRoute path="/servicedetails/:serviceId">
               <ServiceDetails></ServiceDetails>
-          </Route>
+          </PrivateRoute>
           <Route path="*">
               <NotFound></NotFound>
           </Route>

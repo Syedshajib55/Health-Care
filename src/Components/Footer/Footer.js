@@ -34,7 +34,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <hr/>
-                <p className='text-center'>MEDIC Website With React &copy; Syed Shakil Mahmud 2021 || All Right Reserved</p>
+                <p className='text-center'>CareNow &copy; Syed Shakil Mahmud 2021 || All Right Reserved</p>
             </div>
         </div>
     );
