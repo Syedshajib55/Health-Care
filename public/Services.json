@@ -1,44 +1,39 @@
 [
     {
         "id": 1,
-        "name": "ENGINE DIAGNOSTIC",
-        "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/dGDkr4v/1.jpg"
+        "name": "Urology",
+        "description": "The Department of Urology at Bangladesh Specialized Hospital is dedicated to providing state-of-the-...",
+        "img": "https://www.bdspecializedhospital.com/storage/app/public/media/1557639896.png"
     },
     {
         "id": 2,
-        "name": "WHEEL ALIGNMENT",
-        "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/tY8dmnP/2.jpg"
+        "name": "PEDIATRIC & NEONATOLOGY",
+        "description": "Paediatrics is one of the most organized and dynamic departments of Bangladesh Specialized Hospital....",
+        "img": "https://www.bdspecializedhospital.com/storage/app/public/media/1557639903.png"
     },
     {
         "id": 3,
-        "name": "OIL CHANGING",
-        "price": "150",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/Yh04YVw/3.jpg"
+        "name": "NEPHROLOGY",
+        "description": "The Department of Nephrology of Bangladesh Specialized Hospital is a leading kidney disease related ...",
+        "img": "https://www.bdspecializedhospital.com/storage/app/public/media/1557639918.png"
     },
     {
         "id": 4,
-        "name": "BRAKE REPARING",
-        "price": "180",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/ZX2Cbkn/4.jpg"
+        "name": "MRD SERVICES",
+        "description": "MRD SERVICESMedical Records Department is responsible for maintaining, storing and smooth flow of pa...",
+        "img": "https://www.bdspecializedhospital.com/storage/app/public/media/1556174961.png"
     },
     {
         "id": 5,
-        "name": "WASH AND GLASSING",
-        "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/FgQ3jXp/5.jpg"
+        "name": "CARDIAC SURGERY",
+        "description": "Founded in mid-2016, the Cardiac surgery department of Bangladesh Specialized Hospital boasts a stro...",
+        "img": "https://www.bdspecializedhospital.com/storage/app/public/media/1557644622.png"
     },
     {
         "id": 6,
-        "name": "COMPLETE ANALYSIS",
-        "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-        "img": "https://i.ibb.co/zJy5ZDd/6.jpg"
+        "name": "ENT, HEAD & NECK SURGERY",
+        "description": "ENT Department of Bangladesh Specialized Hospital offers comprehensive treatment for a wide range of...",
+        "img": "https://www.bdspecializedhospital.com/storage/app/public/media/1557644629.png"
     }
+    
 ]
