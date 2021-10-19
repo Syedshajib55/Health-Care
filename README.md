@@ -5,4 +5,4 @@
 ###2. Without login User don't see About us, Contact us and Services Details
 ###3. User can see 6 main services of that hospital
 ###4. If User login to the website users name will be shown and logout button will appear
-###5. 
+###5. User can Contact us and get emergency care by us
