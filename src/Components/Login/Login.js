@@ -1,11 +1,11 @@
 import React from 'react';
-import { getAuth, signInWithPopup, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail, updateProfile } from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, updateProfile } from "firebase/auth";
 import { useState } from "react";
 import useAuth from '../../Hooks/useAuth/useAuth';
 import initializeAuthentication from '../../Firebase/firebase.init';
 initializeAuthentication();
 const Login = () => {
-    const [name, setName] = useState('');
+  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -87,16 +87,11 @@ const Login = () => {
         console.log(result);
       })
   }
-
-  const handleResetPassword = () => {
-    sendPasswordResetEmail(auth, email)
-      .then(result => { })
-  }
     const {signInUsingGoogle} = useAuth();
     return (
         <div className="mx-5">
              <form onSubmit={handleRegistration}>
-        <h3 className="text-primary">Please {isLogin ? 'Login' : 'Register'}</h3>
+        <h3 className="text-primary">Please {isLogin ? 'Login' : 'Register First'}</h3>
         {!isLogin && <div className="row mb-3">
           <label htmlFor="inputName" className="col-sm-2 col-form-label">Name</label>
           <div className="col-sm-10">
@@ -129,11 +124,9 @@ const Login = () => {
         <button type="submit" className="btn btn-primary">
           {isLogin ? 'Login' : 'Register'}
         </button>
-        <button type="button" onClick={handleResetPassword} className="btn btn-secondary btn-sm">Reset Password</button>
-
       </form>
-      <br /><br />
-        <button onClick={signInUsingGoogle} className="btn btn-warning">Google Sign In</button>
+      <br />
+        <button onClick={signInUsingGoogle} className="btn btn-warning">Sign In With Google</button>
     </div>
     );
 };
